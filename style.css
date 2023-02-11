@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+}
+.grid {
+    width: 200px;
+    height: 400px;
+    background-color: darkslategrey;
+    margin: 1rem;
+    outline: 1px black solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid div {
+    width: 20px;
+    height: 20px;
+    background-color: rgba(240, 128, 128, 0.507);
+    outline: 1px black solid;
+}
