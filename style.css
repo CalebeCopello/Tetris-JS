@@ -1,6 +1,10 @@
 * {
     margin: 0;
 }
+.container {
+    display: flex;
+    border: 1px black solid;
+}
 .grid {
     width: 200px;
     height: 400px;
@@ -16,7 +20,24 @@
     /*background-color: rgba(240, 128, 128, 0.438);*/
     outline: 1px black solid;
 }
+.grid .end {
+    background-color: red;
+}
 
 .tetrad {
     background-color: yellow;
+}
+.showcase {
+    margin-top: 1rem;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkolivegreen;
+    outline: 1px black solid;
+}
+.showcase div {
+    width: 20px;
+    height: 20px;
+    outline: 1px rgba(0, 0, 0, 0.397) solid;
 }
